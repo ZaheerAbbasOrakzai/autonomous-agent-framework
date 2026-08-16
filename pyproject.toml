@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autonomous-agent-framework"
+version = "2.0.0"
+description = "Enterprise-ready framework for multi-agent workflows, tool execution, and stateful graph orchestration."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Autonomous Agent Core Team"}
+]
+keywords = [
+    "agentic-ai",
+    "ai-agents",
+    "langgraph",
+    "multi-agent",
+    "workflow-orchestration",
+    "autonomous-systems"
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "typing-extensions>=4.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0"
+]
+
+[project.scripts]
+agent-framework = "agent_framework.cli:main"
