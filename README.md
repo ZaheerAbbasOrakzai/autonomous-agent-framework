@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![Autonomous Agent Framework Thumbnail](../assets/autonomous_agent_thumbnail.jpg)
+<p align="center">
+  <img src="assets/thumbnail.jpg" alt="Autonomous Agent Framework Architecture" width="100%" />
+</p>
 
 [![Author](https://img.shields.io/badge/Author-Zaheer%20Abbas%20Orakzai-indigo.svg?style=for-the-badge&logo=github)](https://github.com/ZaheerAbbasOrakzai)
 [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge)](pyproject.toml)
